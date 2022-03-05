@@ -4,6 +4,8 @@ var { buildSchema } = require("graphql");
 const schema = buildSchema(`
   type Query {
     hello: String
+    books: [Book]
+    authors: [Author]
     book(id: ID!): Book
     author(id: ID!): Author
   }

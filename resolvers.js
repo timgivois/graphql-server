@@ -6,6 +6,12 @@ const root = {
   hello: () => {
     return "Hello world!";
   },
+  books: () => {
+    return books;
+  },
+  authors: () => {
+    return authors;
+  },
   book: (params) => {
     const book = books.filter(
       (book) => Number.parseInt(book.id) === Number.parseInt(params.id)
