@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "firstName": "Juan",
+    "lastName": "Perez",
+    "books": [
+      {
+        "id": 1,
+        "title": "Libro 1",
+        "published": "2020-01-01"
+      },
+      { "id": 2, "title": "Libro 2", "published": "2020-01-01" }
+    ]
+  },
+
+  {
+    "id": 2,
+    "firstName": "Pedro",
+    "lastName": "Mendez",
+    "books": [
+      {
+        "id": 3,
+        "title": "Libro 3",
+        "published": "2020-01-01"
+      },
+      { "id": 4, "title": "Libro 4", "published": "2020-01-01" },
+      { "id": 5, "title": "Libro 5", "published": "2020-01-01" }
+    ]
+  }
+]

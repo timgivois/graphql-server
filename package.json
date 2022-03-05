@@ -1,0 +1,13 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tim Givois",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0"
+  }
+}
